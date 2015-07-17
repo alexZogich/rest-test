@@ -3,7 +3,7 @@ var http = require('http'),
 
 http.createServer( function (req, res) {
 	requestHadler(req,res);
-}).listen(1337,'127.0.0.2')	
+}).listen(1337)	
 
 function requestHadler(req, res) {
 
